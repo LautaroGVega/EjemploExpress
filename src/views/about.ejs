@@ -6,9 +6,17 @@
     <title><%= title%></title>
     <%- include('partials/head')%>
 </head>
-<body>
+<body class="d-flex flex-column min-vh-100">
     <%- include('partials/navigation')%>
-    <h1>about</h1>
+    <div class="flex-grow-1">
+        <h1 class="display-1">
+            about
+        </h1>
+        <section>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam repudiandae odio quaerat hic exercitationem vitae minima magni. Amet, repellat corrupti iure sequi labore vero reprehenderit rem similique! Quia, provident vitae.
+        </section>
+    </div>
 
+    <%- include('partials/footer')%>
 </body>
 </html>

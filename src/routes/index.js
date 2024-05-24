@@ -2,10 +2,10 @@ import {Router} from 'express'
 const router = Router()
 
 
-router.get('/', (req, res)=> res.render('index.ejs', {title: "primer proyecto en nodejs"}))
+router.get('/', (req, res)=> res.render('index.ejs', {title: "Home"}))
 
-router.get('/about', (req, res)=> res.render('about.ejs',{title: "about "}))
+router.get('/about', (req, res)=> res.render('about.ejs',{title: " Ejemplo about "}))
 
-router.get('/contact', (req, res)=> res.render('contact.ejs',{title: "contact"}))
+router.get('/contact', (req, res)=> res.render('contact.ejs',{title: "Ejemplo contacto"}))
 
 export default router
